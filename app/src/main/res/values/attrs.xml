@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CourseView">
+        <attr name="course_title" format="string"/>
+        <attr name="course_classes" format="string"/>
+        <attr name="course_start" format="integer"/>
+        <attr name="course_end" format="integer"/>
+        <attr name="course_dayOfWeek" format="integer"/>
+        <attr name="course_start_week" format="integer"/>
+        <attr name="course_end_week" format="integer"/>
+    </declare-styleable>
+</resources>

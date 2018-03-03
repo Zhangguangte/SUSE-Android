@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/round_shape_week"
+    android:padding="8dp"
+    android:layout_height="280dp">
+    <ListView
+        android:id="@+id/course_popup_listview"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    </ListView>
+    <Button
+        android:id="@+id/modify_current_week"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/round_shape_current_week"
+        android:textColor="#212121"
+        android:text="修改当前周"/>
+
+</LinearLayout>

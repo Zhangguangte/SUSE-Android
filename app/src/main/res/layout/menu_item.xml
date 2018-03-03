@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:src="@drawable/ic_face_grey600_18dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/menu_img"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+
+    <TextView
+        android:id="@+id/menu_title"
+        android:text="何华平"
+        android:textSize="20sp"
+        android:textColor="#ee555555"
+        android:paddingLeft="16dp"
+        android:layout_toRightOf="@id/menu_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

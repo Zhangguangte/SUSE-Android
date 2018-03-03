@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Activity.NewsContentActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/actionbarColor"
+        android:id="@+id/toolBar_content"
+        android:theme="@style/Actionbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.RecyclerView
+        android:padding="8dp"
+        android:id="@+id/content_recyclerview"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <WebView
+            android:id="@+id/web"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></WebView>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_centerInParent="true"
+            style="?android:attr/progressBarStyleInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>

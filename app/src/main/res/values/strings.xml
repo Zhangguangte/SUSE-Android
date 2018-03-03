@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">Suse</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_content" translatable="false">ContentActivity</string>
+    <string name="drawer_open" translatable="false">open</string>
+    <string name="drawer_close" translatable="false">close</string>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+    <string name="title_activity_detail_course_info" translatable="false">DetailCourseInfoActivity</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="title_activity_course_detail" translatable="false">CourseDetailActivity</string>
+    <string name="title_activity_login__jw" translatable="false">Login_JwActivity</string>
+    <string name="title_activity_first_splash_screen" translatable="false">FirstSplashScreenActivity</string>
+    <string name="title_activity_libary_search" translatable="false">LibarySearchActivity</string>
+</resources>

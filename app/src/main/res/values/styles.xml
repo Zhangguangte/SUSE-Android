@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--<item name="colorPrimary">#26A69A</item>-->
+        <!--<item name="colorPrimaryDark">#009688</item>-->
+
+        <item name="colorPrimary">@color/actionbarColor</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/actionbarColor</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+    </style>
+
+
+    <style name="Actionbar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColor">@color/actionbarTitleColor</item>
+        <item name="android:textColorPrimary">@color/actionbarTitleColor</item>
+        <item name="colorPrimary">@color/actionbarColor</item>
+        <item name="popupTheme">@style/Actionbar.PopupMenu</item>
+        <item name="colorPrimaryDark">@color/actionbarColor</item>
+    </style>
+
+    <style name="Actionbar.PopupMenu" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/primary_dark_material_light</item>
+    </style>
+
+    <style name="LoginDialogSTyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorAccent">@color/dialog_accent_color</item>
+        <item name="android:editTextColor">@color/dialog_edit_color</item>
+        <item name="android:background">@color/cardview_light_background</item>
+    </style>
+
+    <style name="SpinnerBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/actionbarTitleColor</item>
+    </style>
+
+
+
+</resources>

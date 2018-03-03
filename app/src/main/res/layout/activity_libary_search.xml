@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agmcs.ssuussee.Activity.LibrarySearchActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/libray_search_toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/actionbarColor"
+        android:theme="@style/Actionbar"
+        android:layout_height="?android:actionBarSize">
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/libray_searchRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+</LinearLayout>

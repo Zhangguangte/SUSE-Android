@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbarColor1">#66BB6A</color>
+    <color name="actionbarColor">#66BB6A</color>
+    <color name="actionbarTitleColor">#E8F5E9</color>
+    <color name="book_btn_default1">#3498db</color>
+    <color name="book_btn_default">#FF9E80</color>
+    <color name="book_btn_press">#888</color>
+
+
+    <color name="dialog_accent_color">#FF5252</color>
+    <color name="dialog_edit_color">#727272</color>
+
+    <color name="color1">#EF5350</color>
+    <color name="color2">#78909C</color>
+    <color name="color3">#BDBDBD</color>
+    <color name="color4">#FF7043</color>
+    <color name="color5">#FFCA28</color>
+    <color name="color6">#66BB6A</color>
+    <color name="color7">#EC407A</color>
+    <color name="color8">#5C6BC0</color>
+
+</resources>

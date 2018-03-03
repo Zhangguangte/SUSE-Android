@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/LoginDialogSTyle">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="四川理工学院"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:background="@color/actionbarColor"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center" />
+
+    <EditText
+        android:id="@+id/login_student_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColorHint="#B6B6B6"
+        android:textColor="#727272"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="学号"/>
+
+    <EditText
+        android:id="@+id/login_dialog_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:textColorHint="#B6B6B6"
+        android:textColor="#727272"
+        android:hint="密码 (默认为学号)"
+        android:inputType="textPassword" />
+</LinearLayout>

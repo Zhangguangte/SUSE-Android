@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Activity.CourseDetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/actionbarColor"
+        android:theme="@style/Actionbar"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:background="@color/actionbarColor"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/login_student_num1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#B6B6B6"
+                    android:textColor="#727272"
+                    android:inputType="number"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="学号"/>
+
+                <EditText
+                    android:id="@+id/login_dialog_password1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="4dp"
+                    android:textColorHint="#B6B6B6"
+                    android:textColor="#727272"
+                    android:hint="密码"
+                    android:inputType="textPassword" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/login_dialog_yzm_img1"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp" />
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="0dp" />
+                    <EditText
+                        android:id="@+id/login_dialog_yzm1"
+                        android:layout_width="match_parent"
+                        android:textColorHint="#B6B6B6"
+                        android:textColor="#727272"
+                        android:singleLine="true"
+                        android:hint="验证码"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/login_spinner_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:id="@+id/login_xn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                    </Spinner>
+                    <Spinner
+                        android:id="@+id/login_xq"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                    </Spinner>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/submit_btn"
+                    android:text="提交"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>
